@@ -131,31 +131,40 @@ The tags page lists all posts as headlines."
 (defconst org-static-blog-texts
   '((other-posts
      ("en" . "Other posts")
-     ("pl" . "Pozostałe wpisy"))
+     ("pl" . "Pozostałe wpisy")
+     ("ru" . "Другие записи"))
     (date-format
      ("en" . "%d %b %Y")
-     ("pl" . "%Y-%m-%d"))
+     ("pl" . "%Y-%m-%d")
+     ("ru" . "%Y-%m-%d"))
     (tags
      ("en" . "Tags")
-     ("pl" . "Tagi"))
+     ("pl" . "Tagi")
+     ("ru" . "Теги"))
     (archive
      ("en" . "Archive")
-     ("pl" . "Archiwum"))
+     ("pl" . "Archiwum")
+     ("ru" . "Архив"))
     (posts-tagged
      ("en" . "Posts tagged")
-     ("pl" . "Wpisy z tagiem"))
+     ("pl" . "Wpisy z tagiem")
+     ("ru" . "Записи с тегом"))
     (no-prev-post
      ("en" . "There is no previous post")
-     ("pl" . "Poprzedni wpis nie istnieje"))
+     ("pl" . "Poprzedni wpis nie istnieje")
+     ("ru" . "Предыдущая запись не найдена"))
     (no-next-post
      ("en" . "There is no next post")
-     ("pl" . "Następny wpis nie istnieje"))
+     ("pl" . "Następny wpis nie istnieje")
+     ("ru" . "Следующая запись не найдена"))
     (title
      ("en" . "Title: ")
-     ("pl" . "Tytuł: "))
+     ("pl" . "Tytuł: ")
+     ("ru" . "Заголовок: "))
     (filename
      ("en" . "Filename: ")
-     ("pl" . "Nazwa pliku: "))))
+     ("pl" . "Nazwa pliku: ")
+     ("ru" . "Название файла: "))))
 
 (defun org-static-blog-gettext (text-id)
   "Return localized text.
